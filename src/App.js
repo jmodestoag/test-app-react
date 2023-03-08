@@ -9,23 +9,24 @@ function App() {
 
       <div className='row'>
         <div className='col'>
-          <Icon name="ticketPlusCircular" />
+          <Icon name="ticketPlusCircularIcon" />
         </div>
         <div>
-          <Icon name="ticketPlus" />
+          <Icon name="ticketPlusIcon" />
         </div>
         <div>
-          <Icon name="IconoChatRead" />
+          <Icon name="chatReadIcon" />
         </div>
         <div>
-          <Icon name="IconoChatUnread" />
+          <Icon name="chatUnreadIcon" />
         </div>
         <div>
-          <Icon name="IconDelete"/>
+          <Icon name="deleteIcon" />
         </div>
-      
-      </div>
-      
+        <div>
+          <Icon name="notificacionesIcon" />
+        </div>       
+      </div>      
     </div>
   );
 }
@@ -34,9 +35,10 @@ export default App;
 
 
 const styles = { 
-  color: 'white',
-  with: '42px',
-  height: '42px'
+  backgroundColor : "black",
+  width: 64,
+  height: 64,
+  borderRadius: 50
 }
 
 

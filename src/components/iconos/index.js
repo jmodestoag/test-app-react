@@ -14,21 +14,21 @@ function RowColLayoutExample() {
             </Row>
             <Row >
                 <Col>
-                    <Form.Label>deleteIcon</Form.Label>
+                    <Form.Label>deleteIcon size 64</Form.Label>
                     <Form.Group className="mb-3">
-                        <Icon name="deleteIcon" />
+                        <Icon name="deleteIcon" color="blue" size="64"/>
                     </Form.Group>
                 </Col>
                 <Col>
-                    <Form.Label>chatUnreadIcon</Form.Label>
+                    <Form.Label>chatUnreadIcon size default 32</Form.Label>
                     <Form.Group className="mb-3" >
                         <Icon name="chatUnreadIcon" />
                     </Form.Group>
                 </Col>
                 <Col>
-                    <Form.Label>chatUnreadIcon</Form.Label>
+                    <Form.Label>chatUnreadIcon size 24</Form.Label>
                     <Form.Group className="mb-3" >
-                        <Icon name="chatUnreadIcon" />
+                        <Icon name="chatUnreadIcon" size="24"/>
                     </Form.Group>
                 </Col>
                 <Col>

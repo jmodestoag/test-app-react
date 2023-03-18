@@ -14,40 +14,46 @@ function RowColLayoutExample() {
             </Row>
             <Row >
                 <Col>
-                    <Form.Label>deleteIcon size 64</Form.Label>
+                    <Form.Label>deleteIcon</Form.Label>
                     <Form.Group className="mb-3">
-                        <Icon name="deleteIcon" color="blue" size="64"/>
+                        <Icon name="deleteIcon" color="blue" size="32"/>
                     </Form.Group>
+                    <Form.Label>size: default 32</Form.Label>
                 </Col>
                 <Col>
-                    <Form.Label>chatUnreadIcon size default 32</Form.Label>
+                    <Form.Label>chatUnreadIcon</Form.Label>
                     <Form.Group className="mb-3" >
                         <Icon name="chatUnreadIcon" />
                     </Form.Group>
+                    <Form.Label>size: default 32</Form.Label>
                 </Col>
                 <Col>
-                    <Form.Label>chatUnreadIcon size 24</Form.Label>
+                    <Form.Label>chatUnreadIcon</Form.Label>
                     <Form.Group className="mb-3" >
                         <Icon name="chatUnreadIcon" size="24"/>
                     </Form.Group>
+                    <Form.Label>size: size 24</Form.Label>
                 </Col>
                 <Col>
                     <Form.Label>ticketPlusIcon</Form.Label>
                     <Form.Group className="mb-3" >
-                        <Icon name="ticketPlusIcon" />
+                        <Icon name="ticketPlusIcon"  size="64"/>
                     </Form.Group>
+                    <Form.Label>size: 64</Form.Label>
                 </Col>
                 <Col>
                     <Form.Label>ticketPlusCircularIcon</Form.Label>
                     <Form.Group className="mb-3" >
                         <Icon name="ticketPlusCircularIcon" />
                     </Form.Group>
+                    <Form.Label>size: default 32</Form.Label>
                 </Col>
                 <Col>
                     <Form.Label>notificacionesIcon</Form.Label>
                     <Form.Group className="mb-3">
                         <Icon name="notificacionesIcon" />
                     </Form.Group>
+                    <Form.Label>size: default 32</Form.Label>
                 </Col>
             </Row>
         </Container>
